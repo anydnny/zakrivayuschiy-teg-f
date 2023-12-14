@@ -1,1 +1,25 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --font-main: 'Inter-Variable';
+  --font-accent: 'Press Start 2P';
+  --font-weight-normal: 465;
+  --font-weight-bold: 785;
+
+  --bg-color: #000000;
+  --accent-color: rgba(0, 204, 20, 1);
+
+  --repeat-gradient-color: #000;
+  --linear-gradient-color-start: #007f0c;
+  --linear-gradient-color-end: #004306;
+
+  --card-section-size: clamp(23.1875rem, 16.0352rem + 30.5164vw, 43.5rem);
+
+  --watermark-border: #000;
+
+  --heart-border: rgba(0, 204, 20, 1);
+  --heart-fill: #FF0000;
+
+  --btn-text-color: #00CC14;
+
+}
